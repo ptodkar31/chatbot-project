@@ -5,9 +5,13 @@ It allows users to chat with the bot and get instant responses.
 
 ### Features:
 1.Real-time messaging using WebSockets
+
 2.Powered by OpenAI's GPT-4o-mini
+
 3.FastAPI for backend processing
+
 4.HTML, CSS, and JavaScript frontend
+
 5.Interactive chat interface
 
 ### Setup Instructions :
@@ -38,12 +42,17 @@ Step 6 : Open the Chat Interface
 
 #### Backend (FastAPI) - 
 1.Handles WebSocket connections for real-time chat.
+
 2.Sends user messages to GPT-4o-mini API.
+
 3.Returns chatbot responses instantly.
+
 4.Serves static frontend files.
 
 
 #### Frontend (HTML + JavaScript) - 
 1.Connects to the WebSocket server.
+
 2.Sends user messages when Enter is pressed or the Send button is clicked.
+
 3.Receives and displays responses from the chatbot.
