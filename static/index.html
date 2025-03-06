@@ -118,7 +118,7 @@
         socket.onmessage = function(event) {
             let chatbox = document.getElementById("chatbox");
 
-            // Remove loading indicator
+            
             let loadingIndicator = document.getElementById("loading");
             if (loadingIndicator) {
                 chatbox.removeChild(loadingIndicator);
@@ -152,7 +152,7 @@
                 userMessage.textContent = input.value;
                 chatbox.appendChild(userMessage);
 
-                // Show "Generating response..." while bot processes
+                
                 let loadingMessage = document.createElement("p");
                 loadingMessage.classList.add("message", "bot-message");
                 loadingMessage.setAttribute("id", "loading");
