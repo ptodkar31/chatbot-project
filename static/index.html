@@ -111,7 +111,9 @@
     </div>
     
     <script>
-        let socket = new WebSocket("ws://localhost:8000/chat");
+        // let socket = new WebSocket("ws://localhost:8000/chat");
+        let socket = new WebSocket("wss://chatbot-project-1t5p.onrender.com/chat");
+
 
         socket.onmessage = function(event) {
             let chatbox = document.getElementById("chatbox");
