@@ -54,8 +54,8 @@
             margin-bottom: 10px;
             word-wrap: break-word;
             display: inline-block;
-            font-family: Arial, sans-serif; /* Same font type */
-            font-size: 16px; /* Same font size */
+            font-family: Arial, sans-serif; 
+            font-size: 16px; 
         }
 
         .user-message {
@@ -127,7 +127,7 @@
 
             let preTag = document.createElement("pre");
             preTag.textContent = event.data;
-            preTag.style.whiteSpace = "pre-wrap";  // Preserves formatting
+            preTag.style.whiteSpace = "pre-wrap";  
             botMessage.appendChild(preTag);
 
             chatbox.appendChild(botMessage);
